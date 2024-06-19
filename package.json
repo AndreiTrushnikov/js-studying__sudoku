@@ -1,7 +1,7 @@
 {
-  "name": "js-studying__bulls_and_cows",
+  "name": "js-studying__sudoku",
   "version": "1.0.0",
-  "description": "bulls_and_cows",
+  "description": "sudoku",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndreiTrushnikov/js-studying__bulls_and_cows.git"
+    "url": "git+https://github.com/AndreiTrushnikov/js-studying__sudoku.git"
   },
   "keywords": [
-    "miner",
+    "sudoku",
     "js",
     "javascript",
     "module",
@@ -21,9 +21,9 @@
   "author": "Andrey Trushnikov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndreiTrushnikov/js-studying__bulls_and_cows/issues"
+    "url": "https://github.com/AndreiTrushnikov/js-studying__sudoku/issues"
   },
-  "homepage": "https://github.com/AndreiTrushnikov/js-studying__bulls_and_cows#readme",
+  "homepage": "https://github.com/AndreiTrushnikov/js-studying__sudoku#readme",
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",

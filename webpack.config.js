@@ -56,7 +56,7 @@ module.exports = {
             }
         }),
         new HtmlWebpackPlugin({
-            title: 'Bulls and Cows',
+            title: 'Sudoku',
             filename: 'index.html',
             template: path.resolve(__dirname, 'src/index.html')
         }),

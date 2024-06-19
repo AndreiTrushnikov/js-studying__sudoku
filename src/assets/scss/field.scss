@@ -1,1 +1,79 @@
 @import "./vars";
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 450px;
+  &-title {
+    text-align: center;
+  }
+}
+.cells {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  width: 450px;
+  height: 450px;
+  & span {
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    user-select: none;
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 18px;
+    font-family: "Arial Black", sans-serif;
+    color: black;
+    background-color: lightgrey;
+    cursor: pointer;
+    &:nth-child(4), &:nth-child(5), &:nth-child(6),
+    &:nth-child(13), &:nth-child(14), &:nth-child(15),
+    &:nth-child(22), &:nth-child(23), &:nth-child(24),
+
+    &:nth-child(28), &:nth-child(29), &:nth-child(30),
+    &:nth-child(34), &:nth-child(35), &:nth-child(36),
+    &:nth-child(37), &:nth-child(38), &:nth-child(39),
+    &:nth-child(43), &:nth-child(44), &:nth-child(45),
+    &:nth-child(46), &:nth-child(47), &:nth-child(48),
+    &:nth-child(52), &:nth-child(53), &:nth-child(54),
+
+    &:nth-child(58), &:nth-child(59), &:nth-child(60),
+    &:nth-child(67), &:nth-child(68), &:nth-child(69),
+    &:nth-child(76), &:nth-child(77), &:nth-child(78),
+    {
+      background-color: lightblue;
+    };
+    &.active {
+      background-color: beige;
+    }
+  }
+}
+
+.numbers {
+   display: flex;
+   justify-content: space-between;
+  align-content: center;
+  &-btn {
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Arial Black", sans-serif;
+    color: black;
+    background-color: ghostwhite;
+    
+    cursor: pointer;
+    &:hover {
+      background-color: lightblue;
+    }
+  }
+}
+
+// 4,5,6,10,11,12,16,17,18
